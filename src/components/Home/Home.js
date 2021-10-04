@@ -43,44 +43,44 @@ const Home = (props) => {
             <Container>
                 <Row xs={1} md={4} className="g-4">
                 <Col>
-                <Card className="py-5 bg-primary text-white">
+                <Card className="py-3 bg-primary text-white">
                 <Card.Body>
                 <Card.Title><span className="courseIcon">{courseIcon}</span>
                 </Card.Title>
-                <div className="fs-2">
+                <div className="fs-4">
                     <p>10,000 Courses</p>
                 </div>
                 </Card.Body>
             </Card>
             </Col>
             <Col>
-                <Card className="py-5 bg-warning text-white">
+                <Card className="py-3 bg-warning text-white">
                 <Card.Body>
                 <Card.Title><span className="courseIcon">{bookIcon}</span>
                 </Card.Title>
-                <div className="fs-2">
+                <div className="fs-4">
                 <p>1500+ PDF Books</p>
                 </div>
                 </Card.Body>
             </Card>
             </Col>
             <Col>
-                <Card className="py-5 bg-info text-white">
+                <Card className="py-3 bg-info text-white">
                 <Card.Body>
                 <Card.Title><span className="courseIcon">{supportIcon}</span>
                 </Card.Title>
-                <div className="fs-2">
+                <div className="fs-4">
                 <p>24/7 Support</p>
                 </div>
                 </Card.Body>
             </Card>
             </Col>
             <Col>
-                <Card className="py-5 bg-success text-white">
+                <Card className="py-3 bg-success text-white">
                 <Card.Body>
                 <Card.Title><span className="courseIcon">{usersIcon}</span>
                 </Card.Title>
-                <div className="fs-2">
+                <div className="fs-4">
                     <p>20000+ Studens</p>
                 </div>
                 </Card.Body>
@@ -92,7 +92,7 @@ const Home = (props) => {
         </section>
         {/* Services Part 4 data showing */}
         <section>
-            <div className="container text-center py-5">
+            <div className="container text-center py-3">
                 <h1>Ours Popular Courses</h1>
             </div>
             <div className="container mb-5">
