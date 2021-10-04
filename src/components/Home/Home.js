@@ -38,7 +38,7 @@ const Home = (props) => {
             </div>
         </section>
 {/* Card Section */}
-        <section className="bg-light">
+        <section className="bg-light mt-5">
             <div className="py-5 text-center">
             <Container>
                 <Row xs={1} md={4} className="g-4">
