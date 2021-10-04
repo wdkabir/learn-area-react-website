@@ -1,10 +1,11 @@
 import React from 'react';
 import './NotFound.css';
-import notFound from '../../../images/notfound1.jpg';
+import notFound from '../../../src/images/notfound1.jpg';
 import { Container } from 'react-bootstrap';
 
 const NotFound = () => {
     return (
+        //Not Found Pages Content
         <div>
             <Container>
             <img

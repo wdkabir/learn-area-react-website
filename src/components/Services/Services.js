@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
 import {Container, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
 import './Services.css';
 
 const Services = (props) => {
+    //Destructuring Part
     const {courses} = props;
     return (
         <div className="py-5">

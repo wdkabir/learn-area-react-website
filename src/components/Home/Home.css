@@ -2,13 +2,6 @@
     min-height: 80.9vh;
 }
 
-.header-details h6 {
-    color: #FD511A;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 10px;
-}
 .header-details h1 {
     font-weight: bold;
     font-size: 48px;
@@ -16,12 +9,18 @@
     color: #000000;
     margin-bottom: 19px;
 }
-.header-details h1 span {
-    color: #21B573;
+.header-details h3 {
+    color: #f68d88;
 }
 .header-details p {
     font-size: 16px;
-    line-height: 36px;
+    line-height: 35px;
     color: #6C6B6B;
     margin-bottom: 15px;
+}
+.courseIcon{
+    font-size: 50px;
+}
+.card{
+    transition: all .4s;
 }

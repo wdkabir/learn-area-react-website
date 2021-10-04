@@ -1,24 +1,24 @@
 import React from 'react';
-import { Button, Card, } from 'react-bootstrap';
+import { Button, Card, Col, } from 'react-bootstrap';
 import './Course.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignInAlt, faClock, faUsers } from '@fortawesome/free-solid-svg-icons';
 
 const Course = (props) => {
-    const {img, name, price, duration,  enrolled, description } = props.course;
+    //Destructuring Part
+    const {img, name, price, duration,  enrolled } = props.course;
+    //Fontawesome icons
     const userSignIn = <FontAwesomeIcon icon={faSignInAlt} />
     const durationIcon = <FontAwesomeIcon icon={faClock} />
     const enrolledUsersIcon = <FontAwesomeIcon icon={faUsers} />
     return (
         <div>
+            <Col>
             <Card>
-                <Card.Img variant="top" src={img}/>
+                <Card.Img variant="top" className=" img-fluid rounded-4" src={img}/>
                 <Card.Body>
                 <Card.Title>{name}</Card.Title>
-                <Card.Text>
-                    {description}
-                </Card.Text>
-                <Card.Text className="d-flex flex-column flex-md-row justify-content-between"> <span>{durationIcon} Duration:  {duration}</span> 
+                <Card.Text className="d-flex flex-column flex-md-row justify-content-between"> <span>{durationIcon} {duration}</span> 
                 <span>{enrolledUsersIcon} Enrolled: {enrolled}</span>
                 </Card.Text>
                 </Card.Body>
@@ -27,6 +27,7 @@ const Course = (props) => {
                     <Button variant="outline-success">{userSignIn} Enroll Now</Button>
                 </Card.Footer>
             </Card>
+            </Col>
         </div>
     );
 };

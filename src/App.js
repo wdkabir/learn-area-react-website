@@ -2,13 +2,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import About from './components/Header/About/About';
-import Contact from './components/Header/Contact/Contact';
-import Footer from './components/Header/Footer/Footer';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
-import Home from './components/Header/Home/Home';
-import NotFound from './components/Header/NotFound/NotFound';
-import Services from './components/Header/Services/Services';
+import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
+import NotFound from './components/NotFound/NotFound';
+import Services from './components/Services/Services';
 
 function App() {
   const [courses, setCourses] = useState([]);
@@ -17,6 +17,7 @@ function App() {
         .then(res => res.json())
         .then(data => setCourses(data));
     }, []);
+    //All Routers
   return (
     <div>
       <Router>

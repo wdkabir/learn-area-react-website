@@ -6,6 +6,7 @@ import './Header.css';
 
 const Header = () => {
     return (
+      //Header part
 <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
   <Container fluid>
   <Navbar.Brand to="#home">
