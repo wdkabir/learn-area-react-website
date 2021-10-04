@@ -1,0 +1,110 @@
+[
+        {
+            "id": 1,
+            "name": "Angular Free Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "3 months",
+            "enrolled": 4,
+            "price": 50,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/angular.png?raw=true"
+        },
+        {
+            "id": 2,
+            "name": "Bootstrap 5 Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "2 months",
+            "enrolled": 5,
+            "price": 60,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/bootstrap.png?raw=true"
+        },
+        {
+            "id": 3,
+            "name": "Cyber Security Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "6 months",
+            "enrolled": 5,
+            "price": 80,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/cybersecurity.jpg?raw=true"
+        },
+        {
+            "id": 4,
+            "name": "HTML Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "3 months",
+            "enrolled": 5,
+            "price": 40,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/html-course.png?raw=true"
+        },
+        {
+            "id": 5,
+            "name": "JAVA Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "8 months",
+            "enrolled": 4,
+            "price": 70,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/java.jpg?raw=true"
+        },
+        {
+            "id": 6,
+            "name": "JavaScript Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "12 months",
+            "enrolled": 5,
+            "price": 100,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/javascript.jpg?raw=true"
+        },
+        {
+            "id": 7,
+            "name": "Node JS Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "5 months",
+            "enrolled": 5,
+            "price": 90,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/nodejs.png?raw=true"
+        },
+        {
+            "id": 8,
+            "name": "Python Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "7 months",
+            "enrolled": 5,
+            "price": 80,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/python.jpeg?raw=true"
+        },
+        {
+            "id": 9,
+            "name": "PHP Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "6 months",
+            "enrolled": 5,
+            "price": 120,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/php.png?raw=true"
+        },
+        {
+            "id": 10,
+            "name": "React JS Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "3 months",
+            "enrolled": 5,
+            "price": 150,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/reactjs.png?raw=true"
+        },
+        {
+            "id": 11,
+            "name": "TypeScript Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "6 months",
+            "enrolled": 5,
+            "price": 200,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/typescript.jpeg?raw=true"
+        },
+        {
+            "id": 12,
+            "name": "WordPress CMS Course",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam nisi pariatur. Tenetur voluptate adipisci laboriosam necessitatibus, porro molestiae odit",
+            "duration": "5 months",
+            "enrolled": 5,
+            "price": 60,
+            "img": "https://github.com/wdkabir/learn-area-images/blob/main/wordpress.png?raw=true"
+        }
+]
