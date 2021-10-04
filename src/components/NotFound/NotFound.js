@@ -1,11 +1,12 @@
 import React from 'react';
 import './NotFound.css';
 import notFound from '../../../src/images/notfound1.jpg';
-import { Container } from 'react-bootstrap';
+import { Button, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NotFound = () => {
     return (
-        //Not Found Pages Content
+        <>
         <div>
             <Container>
             <img
@@ -16,6 +17,12 @@ const NotFound = () => {
       />
             </Container>
         </div>
+        <div className="w-75 mx-auto text-center py-5">
+            <Link to="/">
+                <Button variant="warning">GO BACK</Button>
+            </Link>
+        </div>
+        </>
     );
 };
 
