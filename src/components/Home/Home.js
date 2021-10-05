@@ -59,7 +59,7 @@ const Home = (props) => {
                 <Card.Title><span className="courseIcon">{bookIcon}</span>
                 </Card.Title>
                 <div className="fs-4">
-                <p>1500+ PDF Books</p>
+                <p>1500+ Books</p>
                 </div>
                 </Card.Body>
             </Card>
@@ -81,7 +81,7 @@ const Home = (props) => {
                 <Card.Title><span className="courseIcon">{usersIcon}</span>
                 </Card.Title>
                 <div className="fs-4">
-                    <p>20000+ Studens</p>
+                    <p>20000+ Student</p>
                 </div>
                 </Card.Body>
             </Card>
@@ -92,7 +92,7 @@ const Home = (props) => {
         </section>
         {/* Services Part 4 data showing */}
         <section>
-            <div className="container text-center py-3">
+            <div className="container text-center py-5">
                 <h1>Ours Popular Courses</h1>
             </div>
             <div className="container mb-5">
