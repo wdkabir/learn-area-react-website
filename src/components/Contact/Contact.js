@@ -1,37 +1,80 @@
 import React from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Col, Container, Form, Image, Row } from 'react-bootstrap';
 import './Contact.css';
 
 const Contact = () => {
     return (
-        //Contact Section
-        <div className="container contact">
-            <h2 className="mt-5 mb-5 text-center">Contact Us</h2>
-            <div className="row">
-                <div className="col-md-8 col-12 mx-auto">
-                    <Form>
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            <Form.Label>Full Name <span className="text-danger">*</span></Form.Label>
-                            <Form.Control type="text" placeholder="Full Name" required />
+        //Contact Section part
+        <>
+        <section className="contact-section py-5">
+        <div>
+            <Container>
+                <Row className="text-center">
+                    <div className="col-md-2"></div>
+                    <div className="col-md-8 my-3">
+                        <h1>Get In Touch!</h1>
+                        <p>We've answered our most common queries in the FAQs. · If you have a query regarding a payment, or wish to change your billing date, you can call usWe've answered our.</p>
+                    </div>
+                    <div className="col-md-2"></div>
+                </Row>
+            </Container>
+        </div>
+        <div>
+            <Container>
+                <Row className="text-center my-5">
+                <div className="col-md-6 my-5">
+                <Image src="https://i.ibb.co/6FSWYnS/b78b7986b0964ce42f8fc93b6fcbea6d.png" fluid />
+                </div>
+                {/* Contact Form Part */}
+                <div className="col-md-6 my-5">
+                    <Form className="contact">
+                    <Form.Text className="text-center">
+                            <h1 className="py-3">Contact Us</h1>
+                        </Form.Text>
+                        <Row className="mb-3">
+                            <Form.Group as={Col} controlId="formGridName">
+                            <Form.Control type="text" placeholder="Enter Name" />
+                            </Form.Group>
+
+                            <Form.Group as={Col} controlId="formGridEmail">
+                            <Form.Control type="email" placeholder="Enter Email" />
+                            </Form.Group>
+                        </Row>
+
+                        <Form.Group className="mb-3" controlId="formGridAddress1">
+                            <Form.Control placeholder="Address" />
                         </Form.Group>
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                            <Form.Label>Email <span className="text-danger">*</span></Form.Label>
-                            <Form.Control type="email" placeholder="name@example.com" required />
-                        </Form.Group>
-                        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                            <Form.Label>Message <span className="text-danger">*</span></Form.Label>
-                            <Form.Control as="textarea" rows={3} required />
-                        </Form.Group>
-                        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                            <Form.Check type="checkbox" label="Notify via Email" />
-                        </Form.Group>
-                        <Button variant="primary" type="submit">
-                            Send
+
+
+                        <Row className="mb-3">
+                            <Form.Group as={Col} controlId="formGridCity">
+                            <Form.Control placeholder="City" />
+                            </Form.Group>
+
+                            <Form.Group as={Col} controlId="formGridState">
+                            <Form.Control placeholder="State" />
+                            </Form.Group>
+
+                            <Form.Group as={Col} controlId="formGridZip">
+                            <Form.Control placeholder="Zipcode" />
+                            </Form.Group>
+                        </Row>
+                            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                                 <Form.Control as="textarea" rows={3} placeholder="Massage"/>
+                            </Form.Group>
+
+                        <Button className="w-100" variant="primary" type="submit">
+                            Submit
                         </Button>
                     </Form>
                 </div>
-            </div>
+                </Row>
+                
+            </Container>
         </div>
+        </section>
+        
+        </>
     );
 };
 

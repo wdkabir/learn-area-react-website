@@ -6,6 +6,7 @@ import banner from '../../../src/images/banner-img4.png';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
 import { Link } from 'react-router-dom';
+import Contact from '../Contact/Contact';
 
 const Home = (props) => {
     //Destructuring Part
@@ -27,7 +28,7 @@ const Home = (props) => {
                             <h3>Are you ready to Learn?</h3>
                             <h1>The World's Leading Distance-Learning Provider </h1>
                             <p>Education is the basic necessity of life. It is an integral tool that aids the overall growth and development. Education has a plethora of meanings and educates and empowers you within the four walls of the classroom as well as imbibe in your environment. Learning is an education that makes sense, and it needs awareness to reach the remote corners of the country.</p>
-                            <Button variant="primary" className="get-btn">{userIcon} Join For Free</Button>
+                            <Link to="/contact"><Button variant="primary" className="get-btn">{userIcon} Join For Free</Button></Link>
                         </div>
                     </div>
                     <div className="col-md-12 col-lg-6 col mt-2 w-50 ms-auto">
@@ -104,10 +105,14 @@ const Home = (props) => {
                         }
                 </Row>
             </div>
-            <div className="container text-center py-5">
-            <Link to="/services"><Button variant="outline-info">More Services</Button></Link>
+            <div className="container text-center">
+            <Link to="/services"><Button variant="outline-success">See More Coursec</Button></Link>
             </div>
         </section>
+        <div className="mt-5">
+        <Contact></Contact>
+        </div>
+        
 </>
     );
 };
