@@ -5,6 +5,7 @@ import { faUser, faLaptopCode, faBook, faUsers, faHeadset } from '@fortawesome/f
 import banner from '../../../src/images/banner-img4.png';
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
+import { Link } from 'react-router-dom';
 
 const Home = (props) => {
     //Destructuring Part
@@ -102,6 +103,9 @@ const Home = (props) => {
                             </Course> )
                         }
                 </Row>
+            </div>
+            <div className="container text-center py-5">
+            <Link to="/services"><Button variant="outline-info">More Services</Button></Link>
             </div>
         </section>
 </>
